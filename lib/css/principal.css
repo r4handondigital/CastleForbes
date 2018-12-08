@@ -1,6 +1,52 @@
 body, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, input, textarea {
-    font-family: 'Oswald',sans-serif;
-	font-weight:300
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+header nav{
+	background: #0b2454;
+	font-weight: 700;
+	height: 145px;
+	padding-top: 44px;
+}
+
+.container{
+	max-width: 100%;
+}
+
+
+nav li a{
+	font-size: 25px;
+	padding: 0 43px;
+}
+
+nav li a:hover,nav li a.active{
+	color: #4595d0;
+}
+
+
+/* Slide style */
+.cd-hero__slide {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cd-hero__slide:first-of-type {
+ background-image: url(../../imgs/destaque-01.jpg);
+}
+
+.cd-hero__slide:nth-of-type(2) {
+   background-image: url(../../imgs/destaque-02.jpg);
+}
+
+.cd-hero__slide:nth-of-type(3) {
+  background-image: url(../../imgs/destaque-03.jpg);
+}
+
+.cd-hero__slide:nth-of-type(4) {
+  background-image: url(../../imgs/destaque-04.jpg);
 }
 
 
@@ -9,10 +55,16 @@ body, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, input, textarea {
 
 
 
-@media only screen and  (min-width:1150px){
+
+
+
+
+
+
+@media only screen and  (min-width:1590px){
 
 	.container{
-		width: 1170px;
+		width: 1600px;
 	}
 
 

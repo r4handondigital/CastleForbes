@@ -6,7 +6,7 @@ body, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, input, textarea {
 
 header nav{
 	background: #0b2454;
-	font-weight: 700;
+	font-weight: 700; 
 	height: 145px;
 	padding-top: 44px;
 }
@@ -49,9 +49,44 @@ nav li a:hover,nav li a.active{
   background-image: url(../../imgs/destaque-04.jpg);
 }
 
+.cd-hero__slider{
+	background: url(../../imgs/ajax-loader.gif) no-repeat center 35%;
+}
+.dest{
+	box-shadow: none !important;
+}
+.dest li{
+	position: relative;
+	overflow: hidden !important;
 
+}
+.dest li h5{
+	font-weight: bold;
+	font-size: 18px;
+}
+.dest li h5{
+	
+	color: #0b2454;
+}
+.dest li.cd-selected h5{
 
+	color: #4595d0;
+}
 
+.dest li p{
+	font-size: 15px;
+	line-height: 15px;
+	font-weight: 300;
+	color: #4595d0;
+}
+
+.dest li.cd-selected p {
+	color: #fff;
+}
+
+.dest li.cd-selected{
+	top: -60px; 
+}
 
 
 

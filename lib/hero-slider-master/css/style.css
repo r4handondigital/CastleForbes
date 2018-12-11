@@ -549,7 +549,7 @@ Hero Slider - by CodyHouse.co
   -webkit-transform: translateX(400%);
       -ms-transform: translateX(400%);
           transform: translateX(400%);
-}
+} 
 
 .cd-hero__nav ul::after {
   clear: both;
@@ -564,11 +564,21 @@ Hero Slider - by CodyHouse.co
 }
 
 .cd-hero__nav .cd-selected a {
-  color: #2c343b;
+  padding: 80px;
 }
 
-.cd-hero__nav .cd-selected a:hover {
-  background-color: transparent;
+.cd-hero__nav .cd-selected a {
+  color: #fff;
+  
+}
+
+.cd-hero__nav .cd-selected {
+  color: #2c343b;
+  background: #0b2454;
+}
+
+.cd-hero__nav .cd-selected:hover {
+ background: #0b2454;
 }
 
 .cd-hero__nav a {
@@ -580,9 +590,10 @@ Hero Slider - by CodyHouse.co
   color: #a8b4be;
   -webkit-transition: background-color 0.2s;
   transition: background-color 0.2s;
+  min-height: 380px;
 }
 
-.cd-hero__nav a::before {
+/*.cd-hero__nav a::before {
   content: '';
   position: absolute;
   width: 24px;
@@ -638,7 +649,7 @@ Hero Slider - by CodyHouse.co
 
 .cd-hero__nav li.cd-selected:nth-of-type(5) a::before {
   background-position: -96px -24px;
-}
+}*/
 
 @media only screen and (min-width: 768px) {
   .cd-hero__nav {
@@ -648,9 +659,8 @@ Hero Slider - by CodyHouse.co
     width: 25%;
   }
   .cd-hero__nav a {
-    padding-top: 48px;
+    padding-top: 80px;
     font-size: 1.1rem;
-    text-transform: uppercase;
   }
   .cd-hero__nav a::before {
     top: 18px;
@@ -692,4 +702,23 @@ Hero Slider - by CodyHouse.co
 
 .no-js .cd-hero__nav {
   display: none;
+}
+nav ul a:hover{
+  background: transparent;
+  opacity: 0.5;
+}
+
+.cd-hero__nav a.more{
+  position: absolute;
+  top: 60%;
+  width: 100%;
+  text-align: center;
+  opacity: 1 !important;
+  padding: 0 !important;
+  min-height: auto !important;
+  display: none;
+}
+
+li.cd-selected  .more{
+  display: block;
 }

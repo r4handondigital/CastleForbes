@@ -30,6 +30,14 @@ nav li a:hover,nav li a.active{
 	margin-bottom: 0;
 }
 
+.max-nav{
+	display: none;
+}
+.ico-flag {
+    position: absolute;
+    top: 7px;
+    right: -30px;
+}
 
 /* Slide style */
 .cd-hero__slide {
@@ -52,6 +60,10 @@ nav li a:hover,nav li a.active{
 
 .cd-hero__slide:nth-of-type(4) {
   background-image: url(../../imgs/destaque-04.jpg);
+}
+
+.cd-hero__slide:nth-of-type(5) {
+  background-image: url(../../imgs/destaque-03.jpg);
 }
 
 .cd-hero__slider{
@@ -82,15 +94,29 @@ nav li a:hover,nav li a.active{
 	font-size: 15px;
 	line-height: 15px;
 	font-weight: 300;
+
 	color: #4595d0;
+}
+
+.mini-tix{
+	display: none;
+}
+
+.chamada-top{
+	display: none;
 }
 
 .dest li.cd-selected p {
 	color: #fff;
+	display: block !important;
 }
 
 .dest li.cd-selected{
 	top: -60px; 
+}
+
+.tour-x li{
+	width: 20%;
 }
 
 .sessao-sobre{
@@ -129,7 +155,7 @@ nav li a:hover,nav li a.active{
     right: 100px;
 }
 
-.sobre-detalhes .owl-dots .owl-dot{
+.sobre-detalhes .owl-dots .owl-dot,.sessao-acomodacoes .owl-dots .owl-dot{
 	display: block;
 }
 
@@ -303,6 +329,161 @@ input[type=text]:not(.browser-default),input[type=email]:not(.browser-default){
     text-decoration: none;
 }
 
+.sessao-eventos{
+	position: relative;
+	margin-top: 60px;
+}
+
+
+.sessao-acomodacoes{
+	background: #0b2454;
+}
+
+.anima-casa{
+	width: 100%;
+	height: 500px;
+	 background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.conteudo-home h2{
+	color: #4595d0;
+	font-size:75px;
+	font-weight: 900;
+}
+
+.conteudo-home p{
+	font-size: 20px;
+	color: #fff;
+}
+
+ 
+
+.sessao-acomodacoes .owl-dots {
+    position: absolute;
+    top: 180px;
+    right: 50%;
+}
+
+
+.sessao-insider{
+	position: relative;
+	margin: 80px 0;
+}
+.teach-div{
+	text-align: center;
+}
+
+.teach-div img{
+
+	border-radius: 60%; 
+}
+
+.teach-div p{
+	text-align: center;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.teach-div p span{
+	display: block;
+	font-weight: 18px;
+	font-weight: 300;
+}
+
+.detalhe-amarelo{
+	position: absolute;
+	left: 0;
+	top: -260px;
+	z-index: 90;
+}
+
+footer{
+
+}
+
+.sessao-enderecos{
+	padding: 30px 0;
+	background: #0b2454;
+	color: #fff;
+}
+
+.sessao-enderecos a{
+	color: #fff;
+} 
+
+.sessao-enderecos a:hover{
+	color: #f7d347;
+}
+.sessao-enderecos h4{
+	font-weight: 900;
+	font-size: 18px;
+
+}
+
+.sessao-enderecos li{
+	font-weight: 700;
+	position: relative;
+	display: table;
+	margin-bottom: 7px;
+}
+.icomail i{
+	top: 5px;
+}
+
+.det-acomoda{
+	background: url(../../imgs/linha-amarela.png) no-repeat center bottom;
+	padding-bottom: 10px; 
+}
+
+
+.sessao-enderecos a{
+		font-weight: 700;
+}
+
+.sessao-copyright{
+	font-size: 18px;
+	background: #f7d347;
+	font-weight: 700;
+	padding: 20px 0;
+}
+.icomap i{
+	top: 16px;
+}
+.icomap span{
+	display: block;
+	margin-left: 27px;
+}
+.redes-inferior li{
+	display: inline;
+	margin-right: 25px;
+}
+.redes-inferior li a{
+	font-weight: 300;
+}
+
+.redes-inferior li i,.sessao-enderecos li i{
+	position: relative;
+	font-size: 30px;
+}
+
+.bloco-conteudo-home {
+    padding: 20px 80px 80px 80px;
+}
+@media only screen and  (max-width:1690px){
+
+	.menu-ol{
+		margin-right: 60px;
+	}
+	.ico-flag{
+		right: 0;
+	}
+
+
+
+}
+
 @media only screen and  (min-width:1590px){
 
 	.container{
@@ -313,15 +494,341 @@ input[type=text]:not(.browser-default),input[type=email]:not(.browser-default){
 
 }
 
-	
-
-}
-@media only screen and (max-width: 1149px){
+/* INICIO - MAX-1400 */
+@media only screen and (max-width: 1400px){
 	.container {
-	    width: 90%;
+	    width: 1300px;
 	}
 	
+	.menu-ol{
+		margin-right: 60px;
+	}
+	.ico-flag{
+		right: 0;
+	}
+
+	nav li a {
+	    font-size: 20px;
+	    padding: 0 25px;
+	}
+
+	.conteudo-detalhe{
+		    margin: 110px 25px 25px 25px;
+	}
+
+	.imagens-circulares img {
+  	  margin-right: 60px;
+
+	}
+
+	.sobre-detalhes .owl-dots{
+		right: 0;
+	}
+
+	.numeros-animados li {
+	    display: inline-block;
+	    text-align: center;
+	    margin: 0 16px 0 0;
+	    width: 165px;
+	}
+
+	.detalhe-amarelo{
+		left: -160px;
+	}
+	
+	.bloco-conteudo-home{
+		padding: 50px;
+	}
+
+	.conteudo-home h2{
+		font-size: 53px;
+	}
+
+	.conteudo-home p {
+    	font-size: 16px;
+	}
+
+	.cd-hero__nav .cd-selected a {
+    padding: 80px 20px;}
+
+    .sessao-copyright {
+    font-size: 14px;
 }
+
+}/* FIM - MAX-1400 */
+
+/* INICIO - MAX-1280 */
+@media only screen and (max-width: 1280px){
+
+	.container {
+	    width: 1200px;
+	}
+
+	nav .brand-logo{
+		left: 10px;
+	}
+
+	nav li a {
+	   
+	    padding: 0 25px;
+	}
+
+	.imagens-circulares img {
+	    margin-right: 0;
+	}
+
+	.numeros-animados li {
+    display: inline-block;
+    text-align: center;
+    margin: 0;
+    width: 165px;
+}
+
+.numeros-animados li h4 {
+    font-size: 25px;
+    border: 10px solid #f7d347;
+    border-radius: 60%;
+    width: 153px;
+    height: 153px;
+    text-align: center;
+    margin: 0;
+    font-weight: 800;
+    display: inline-block;
+    padding: 63px 0 0 0;
+}
+
+}/* FIM - MAX-1280 */
+
+
+
+/* INICIO - MAX-1280 */
+@media only screen and (max-width: 1024px){
+
+	.menu-ol{
+		margin-right: 60px;
+	}
+
+	.ico-flag{
+		right: 19px;
+	}
+
+	.container {
+	    width: 990px;
+	}
+
+	.conteudo-home h2 {
+	    font-size: 300%;
+	}
+	
+	nav li a {
+	    padding: 0 14px;
+	    font-size: 17px;
+	}
+
+	.detalhe-amarelo {
+	    left: -310px;
+	}
+	
+	.cd-hero{
+		    margin-top: -15px;
+	}
+
+	.cd-hero__slider{
+		margin-bottom: 0;
+	}
+
+
+	.conteudo-detalhe {
+	    margin: 40px 25px 25px 25px;
+	}
+
+	.imagens-circulares img{
+		margin-top: 34px;
+	}
+
+	.sobre-detalhes .owl-dots{
+		top: 0;
+	}
+
+	.numeros-animados li{
+		width: 220px;
+	}
+
+
+	.numeros-animados li h4{
+		width: 170px;
+		height: 170px;
+	}
+
+	.sessao-enderecos li{
+		font-size: 11px;
+	}
+
+}/* FIM - MAX-1280 */
+
+
+/* INICIO - MAX-770 */
+@media only screen and (max-width: 770px){
+
+	.max-nav{
+		display: block;
+	}
+
+.sessao-sobre {
+    background: url(../../imgs/bg-sobre-tablet.jpg) no-repeat center 174px;
+}
+
+	.detalhe-amarelo,.numeros-animados,.desktop-row,.sessao-eventos,.bloco-conteudo-home h2{
+		display: none !important;
+	}
+
+	.item .imagens-circulares {
+    padding: 0 230px;
+}
+	.container{
+		width: 100%;
+	}
+	
+	nav .brand-logo {
+	    left: 116px;
+	}
+	
+	nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
+		font-size: 54px;
+	}
+
+	nav .button-collapse{
+		float: right !important;
+	}
+
+	.sessao-enderecos .col{
+		padding-left: 25px;
+	}
+
+	.sessao-enderecos li {
+    	font-size: 16px;
+	}
+	.sessao-acomodacoes .owl-dots .owl-dot {
+    	display: inline;
+	}
+	.sessao-acomodacoes .owl-dots {
+	    position: absolute;
+	    top: 450px;
+	    right: 0;
+	    width: 100%;
+	}
+
+	.bloco-azul-contato{
+		max-width: 100%;
+		border-radius: 0;
+	}
+
+	.min-espa{
+		margin-bottom: 0;
+	}
+	.sessao-depoimentos{
+		margin-top: 0;
+	}
+	.conteudo-detalhe{
+		text-align: center;
+	}
+
+	.owl-next,.owl-prev{
+		position: relative;
+	}
+
+	.owl-next{
+		margin-right: 20px;
+	}
+
+.owl-prev{
+		margin-left: 20px;
+	}
+
+	.owl-theme .owl-nav{
+		position: relative;
+		top: 0;
+	}
+
+	.bloco-depoimento::before{
+		left: 0;
+	}
+	.bloco-depoimento::after{
+		right: 0;
+	}
+
+	.conteudo-detalhe {
+	    margin: 40px 90px;
+	}
+
+	.sessao-azul{
+		background: #0b2454;
+		margin-bottom: 0;
+		text-align: center;
+		
+	}
+
+	.sessao-azul h4{
+		font-size: 26px;
+		font-weight: 900;
+		margin-top: 35px;
+		color: #4595d0;
+	}
+
+	.sessao-azul p{
+		color: #fff;
+		padding: 0 10px;
+		font-size: 20px;
+	}
+
+	.mini-imagem{
+		background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 260px;
+	}
+
+	.mini-tix{
+		margin-top: 40px;
+		display: block !important;
+
+	}
+
+	.titulos span{
+		font-size: 150%;
+	}
+
+	.cd-hero__nav li{
+		width: 50%;
+	}
+	
+	.item .imagens-circulares {
+    padding: 33px;
+}
+
+.sessao-sobre {
+    background: url(../../imgs/bg-sobre-tablet.jpg) no-repeat center 241px;
+}
+
+.conteudo-detalhe {
+    margin: 20px;
+}
+
+.titulos span {
+    font-size: 129%;
+}
+
+}/* FIM - MAX-770 */
+
+
+
+
+
+
+
+
+
+
 
 
 /* COL-MD */

@@ -124,7 +124,7 @@ nav li a:hover,nav li a.active{
 }
 
 .dest li.cd-selected{
-	top: -60px; 
+	top: 0px; 
 }
 
 .tour-x li{

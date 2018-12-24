@@ -6,9 +6,9 @@ body, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, input, textarea {
 
 header nav{
 	background: #0b2454;
-	font-weight: 700; 
-	height: 145px;
-	padding-top: 44px;
+	font-weight: 700;
+	height: 90px;
+	padding-top: 20px;
 }
 
 .container{
@@ -136,8 +136,9 @@ nav li a:hover,nav li a.active{
 }
 .titulos{
 	color: #0b2454;
-	
-	font-size: 30px;
+	font-size: 18px;
+	line-height: 29px;
+	margin-bottom: 0;
 }
 .titulos span{
 	display: block;
@@ -685,7 +686,7 @@ footer{
 @media only screen and (max-width: 960px){
 
 	.cd-hero__nav a{
-		min-height: 130px;: 
+		:
 	}
 
 	.dest li h5 {
@@ -843,7 +844,7 @@ footer{
 	
 
 .sessao-sobre {
-    background: url(../../imgs/bg-sobre-tablet.jpg) no-repeat center 241px;
+    background: url(../../imgs/bg-sobre-tablet.jpg) no-repeat center 551px;
 }
 
 .conteudo-detalhe {
@@ -851,7 +852,7 @@ footer{
 }
 
 .titulos span {
-    font-size: 129%;
+    font-size: 200%;
 }
 
 }/* FIM - MAX-770 */

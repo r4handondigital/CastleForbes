@@ -3,12 +3,11 @@ body, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, input, textarea {
 }
 
 
-
 header nav{
 	background: #0b2454;
 	font-weight: 700;
-	height: 90px;
-	padding-top: 20px;
+	height: 140px;
+	padding-top: 40px;
 }
 
 .container{
@@ -110,6 +109,19 @@ nav li a:hover,nav li a.active{
 	color: #4595d0;
 }
 
+.amber.accent-3 {
+    background-color: #f7d347!important;
+    color: #0b2454;
+    font-weight: bold;
+}
+
+.btn{
+	text-transform: initial;
+    border-radius: 40px;
+    height: 30px;
+    line-height: 30px;
+}
+
 .mini-tix{
 	display: none;
 }
@@ -133,12 +145,13 @@ nav li a:hover,nav li a.active{
 
 .sessao-sobre{
 	background: url(../../imgs/bg-sobre.jpg) no-repeat center top;
+	margin-top: 80px;
 }
-.titulos{
-	color: #0b2454;
-	font-size: 18px;
-	line-height: 29px;
-	margin-bottom: 0;
+.titulos {
+    color: #0b2454;
+    font-size: 24px;
+    line-height: 42px;
+    margin-bottom: 0;
 }
 .titulos span{
 	display: block;
@@ -187,6 +200,7 @@ nav li a:hover,nav li a.active{
 }
 .numeros-animados{
 	display:table;
+	width: 100%;
 	margin-top:220px;
 }
 .numeros-animados li{
@@ -270,9 +284,9 @@ input[type=text]:not(.browser-default),input[type=email]:not(.browser-default){
 }
 
 .sessao-depoimentos{
-	margin-top: 50px;
+	margin-top: 80px;
 	color: #fff;
-	padding: 90px 0 0px 0;
+	padding: 90px 0 40px 0;
 	background: url(../../imgs/bg-depoimentos.jpg) no-repeat center top;
 }
 .bloco-depoimento::before{
@@ -350,11 +364,12 @@ input[type=text]:not(.browser-default),input[type=email]:not(.browser-default){
 
 .sessao-acomodacoes{
 	background: #0b2454;
+	margin-top: 80px;
 }
 
 .anima-casa{
 	width: 100%;
-	height: 290px;
+	height: 474px;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -382,7 +397,7 @@ input[type=text]:not(.browser-default),input[type=email]:not(.browser-default){
 
 .sessao-insider{
 	position: relative;
-	margin: 9px 0;
+	margin: 90px 0 9px 0;
 }
 .teach-div{
 	text-align: center;
@@ -401,7 +416,7 @@ input[type=text]:not(.browser-default),input[type=email]:not(.browser-default){
 
 .teach-div p span{
 	display: block;
-	font-weight: 18px;
+	font-size: 18px;
 	font-weight: 300;
 }
 
@@ -684,9 +699,39 @@ footer{
 /* INICIO - MAX-770 */
 @media only screen and (max-width: 960px){
 
-	.cd-hero__nav a{
-		:
+
+	.sessao-acomodacoes,.sessao-sobre{
+		margin-top: 0;
 	}
+
+
+	header nav{
+	background: #0b2454;
+	font-weight: 700;
+	height: 90px;
+	padding-top: 20px;
+}
+
+	.numeros-animados{
+		margin-top: 60px;
+		text-align: center;
+	}
+
+	.numeros-animados li {
+    width: 150px;
+    margin: 0 5px ;
+}
+
+.numeros-animados li h4 {
+	    padding: 54px 0 0 0;
+    width: 150px;
+    height: 150px;
+}
+
+.numeros-animados li h5 {
+    font-size: 12px;
+
+  }
 
 	.dest li h5 {
     font-weight: bold;
@@ -705,7 +750,7 @@ footer{
     background: url(../../imgs/bg-sobre-tablet.jpg) no-repeat center 174px;
 }
 
-	.detalhe-amarelo,.numeros-animados,.desktop-row,.sessao-eventos,.bloco-conteudo-home h2{
+	.detalhe-amarelo,.desktop-row,.sessao-eventos,.bloco-conteudo-home h2{
 		display: none !important;
 	}
 
@@ -851,9 +896,19 @@ footer{
     margin: 20px;
 }
 
-.titulos span {
-    font-size: 200%;
+.titulos{
+	font-size: 15px;
+	line-height: 27px;
 }
+.titulos span {
+    font-size: 250%;
+}
+
+
+.anima-casa{
+	height: 290px;
+}
+
 
 }/* FIM - MAX-770 */
 
@@ -883,6 +938,17 @@ footer{
 .redes-inferior li {
     display: inline;
     margin-right: 14px;
+}
+
+.teach-div p {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 0;
+}
+
+.teach-div p span{
+	font-size: 12px;
 }
 
 }

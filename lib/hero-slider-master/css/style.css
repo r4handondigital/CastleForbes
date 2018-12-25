@@ -506,10 +506,9 @@ Hero Slider - by CodyHouse.co
 }
 
 .cd-hero__nav nav.dest {
-  display: inline-block;
   position: relative;
-      background-color: transparent;
-    width: auto;
+  background-color: transparent;
+  width: auto;
 }
 /*
 .cd-hero__marker {
@@ -591,7 +590,8 @@ Hero Slider - by CodyHouse.co
   -webkit-transition: background-color 0.2s;
   transition: background-color 0.2s;
   padding: 38px 30px;
-  height: 150px;
+  height: 120px;
+  text-align: center;
 }
 
 /*.cd-hero__nav a::before {

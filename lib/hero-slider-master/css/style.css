@@ -589,7 +589,7 @@ Hero Slider - by CodyHouse.co
   color: #fff;
   -webkit-transition: background-color 0.2s;
   transition: background-color 0.2s;
-  padding: 38px 30px;
+  /*padding: 38px 30px;*/
   height: 120px;
   text-align: center;
 }
@@ -661,7 +661,7 @@ Hero Slider - by CodyHouse.co
   }
   .cd-hero__nav a {
     font-size: 1.1rem;
-    padding: 38px 0;
+   /* padding: 38px 0;*/
   }
   .cd-hero__nav a::before {
     top: 18px;

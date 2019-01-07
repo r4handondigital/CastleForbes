@@ -10,6 +10,10 @@ header nav{
 	padding-top: 40px;
 }
 
+strong,b{
+	font-weight: bold;
+}
+
 .container{
 	max-width: 100%;
 }
@@ -150,13 +154,14 @@ nav li a:hover,nav li a.active{
 .titulos {
     color: #0b2454;
     font-size: 24px;
-    line-height: 42px;
+    line-height: 28px;
     margin-bottom: 0;
 }
 .titulos span{
 	display: block;
 	font-size: 55px;
 	font-weight: 800;
+	line-height: 60px;
 }
 
 .imagens-circulares img{
@@ -495,9 +500,194 @@ footer{
 	font-size: 24px;
 }
 
-.bloco-conteudo-home {
-    padding: 20px 80px 80px 80px;
+.tabs-um .bloco-conteudo-home {
+    padding: 80px;
+    position: relative;
+    display: table;
 }
+
+.about-topo{
+	 background: url(../../imgs/bg-about.jpg) no-repeat center center ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.titulos-interna{
+	font-size: 120px;
+	color: #fff;
+	padding: 5% 0 5% 15%;
+	font-weight: bold;
+}
+
+
+.contato-topo{
+	 background: url(../../imgs/bg-contato.jpg) no-repeat center center ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.acomodacao-topo{
+	 background: url(../../imgs/bg-acomodacao.jpg) no-repeat center center ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.titulos-interna-contato{
+	font-size: 152px;
+    color: #f7d347;
+    padding: 2% 0 2% 15%;
+    font-weight: bold;
+}
+
+.sessao-contato{
+	background: url(../../imgs/bg-textura-contato.jpg) no-repeat left bottom;
+	padding-bottom: 120px;
+}
+
+
+.azul-bg{
+	background: #0b2454;
+	padding-left: 0 !important;
+}
+
+.azul-bg img{
+	float: left;
+	position: relative;
+	z-index: 1;
+}
+
+.tabs-um {
+	margin-top: 90px;
+	
+}
+
+.tabs .tab a{
+	color: #0b2454;
+}
+
+.tabs .tab a:hover, .tabs .tab a.active {
+    background-color: #0b2454;
+    color: #fff;
+}
+.tabs .indicator{
+	background-color: #0b2454;
+}
+
+.det-amarelo{
+	position: absolute;
+	bottom: -60px;
+	left: -150px;
+	z-index: 0;
+}
+
+.no-right{
+	padding-right: 0 !important;
+}
+
+.sessao-visao{
+	background: url(../../imgs/detalhe-azul.jpg) no-repeat -96px top;
+	padding-top: 110px;
+}
+.sessao-visao h3{
+	font-weight: bold;
+	font-size: 63px;
+}
+
+.sessao-visao p{
+	padding-right: 30px;
+	text-align: justify;
+}
+
+.parallax-container {
+      height:360px;
+      margin: 120px 0;
+      position: relative;
+    }
+
+.parallax-container h3{
+	color: #f7d346;
+    position: absolute;
+    top: 78px;
+    width: 100%;
+}
+.parallax-container h3 span{
+	display: block;
+}
+.sessao-certificados{
+	text-align: center;
+}
+
+.det-img-certificado{
+	display: inline-block;
+	width: 215px;
+	height: 215px;
+	background: #f7d347;
+	border-radius: 60%;
+	text-align: center;
+	padding-top: 60px;
+	margin-top: 60px;
+}
+
+.det-img-certificado:hover{
+	background: #0b2454;
+}
+
+.sessao-certificados p{
+	margin-bottom: 80px;
+}
+.top-espaco{
+	margin: 90px 0;
+}
+
+
+textarea{
+	background-color: #fff !important;
+    border-radius: 30px !important;
+    padding: 10px 20px !important;
+    box-sizing: border-box !important;
+    height: 150px !important;
+    font-size: 18px !important;
+}
+
+.sessao-contato h4{
+	font-weight: bold;
+	margin-top: 40px;
+}
+
+.detalhe-contato{
+	display: table;
+	width: 100%;
+	margin-top: 20px;
+	padding-left: 30px;
+}
+
+.detalhe-contato li{
+	margin-bottom: 10px;
+}
+.sessao-tabs-acomodacao{
+	margin-top: 90px;
+}
+.sessao-tabs-acomodacao .tabs{
+	background: #f7d347;
+	height: 100px;
+}
+
+.sessao-tabs-acomodacao .tabs .tab{
+	line-height: 100px;
+	height: 100px;
+
+}
+/* FIM SITE NORMAL E INICIO VERSÃƒÆ’O RESPONSIVA */
+
+
+
 @media only screen and  (max-width:1690px){
 
 	.menu-ol{

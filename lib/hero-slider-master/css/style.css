@@ -561,6 +561,7 @@ Hero Slider - by CodyHouse.co
   display: inline-block;
   width: 25%;
   float: left;
+  border-right:1px solid #0c2454; 
 }
 
 .cd-hero__nav .cd-selected a {
@@ -583,13 +584,13 @@ Hero Slider - by CodyHouse.co
 .cd-hero__nav a {
   display: block;
   position: relative;
-  font-size: 1rem;
+  font-size: 1.6rem;
   background: #12306c;
   font-weight: 700;
   color: #fff;
   -webkit-transition: background-color 0.2s;
   transition: background-color 0.2s;
-  /*padding: 38px 30px;*/
+  padding: 28px 30px 38px 30px;
   height: 120px;
   text-align: center;
 }
@@ -660,8 +661,9 @@ Hero Slider - by CodyHouse.co
     width: 25%;
   }
   .cd-hero__nav a {
-    font-size: 1.1rem;
-   /* padding: 38px 0;*/
+  font-size: 1rem;
+    padding: 37px 0 0 0;
+    line-height: 16px;
   }
   .cd-hero__nav a::before {
     top: 18px;

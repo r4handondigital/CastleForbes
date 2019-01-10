@@ -343,8 +343,12 @@ input[type=text]:not(.browser-default),input[type=email]:not(.browser-default){
     top: 42px !important;
 }
 
-.dropdown-content li>a, .dropdown-content li>span{
-	    padding: 14px 10px 0px 11px; 
+#dropdown1 li{
+	padding-top: 6px;
+}
+
+#dropdown1 li>a, #dropdown1 li>span{
+	    padding: 0px 10px 0px 11px; 
 }
 
 .owl-theme .owl-nav {
@@ -481,11 +485,21 @@ footer{
 	top: 5px;
 }
 
-.det-acomoda{
-	background: url(../../imgs/linha-amarela.png) no-repeat center bottom;
+a.det-acomoda{
+	
 	padding-bottom: 10px; 
 }
 
+
+ul.tour-x li a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    bottom: 32px;
+    right: 0;
+    background: url(../../imgs/linha-amarela.png) no-repeat center bottom;
+}
 
 .sessao-enderecos a{
 		font-weight: 700;
